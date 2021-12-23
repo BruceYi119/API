@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>dev.orne</groupId>
+    <artifactId>root-pom</artifactId>
+    <version>0.3.0</version>
+    <relativePath />
+  </parent>
+
+  <groupId>com.api</groupId>
+  <artifactId>ch1</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+
+  <name>ch1</name>
+  <description>ch1</description>
+  <inceptionYear>2021</inceptionYear>
+  <url>http://orne-dev.github.io/ch1/</url>
+
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License (LGPL) version 3.0</name>
+      <url>http://www.gnu.org/licenses/lgpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+  </developers>
+
+  <scm>
+    <url>http://github.com/orne-dev/ch1/tree/master</url>
+    <connection>scm:git:git://github.com/orne-dev/ch1.git</connection>
+    <developerConnection>scm:git:ssh://github.com:orne-dev/ch1.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+
+  <properties>
+    <license.licenseName>lgpl_v3</license.licenseName>
+
+    <sonar.projectKey>ch1</sonar.projectKey>
+  </properties>
+
+</project>
